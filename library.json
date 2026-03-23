@@ -1,12 +1,32 @@
 {
   "name": "iKY040",
   "version": "1.0.0",
-  "description": "Library for KY-040 encoder",
-  "keywords": ["arduino", "sensor", "ESP32", "M5Stack Core2"],
+  "description": "Arduino library for reading a KY-040 encoder on ESP32 and M5Stack Core2.",
+  "keywords": [
+    "encoder",
+    "rotary-encoder",
+    "ky-040",
+    "esp32",
+    "m5stack",
+    "core2"
+  ],
+  "authors": [
+    {
+      "name": "Ildeberto de los Santos Ruiz",
+      "maintainer": true
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/isantosruiz/iKY040.git"
   },
-  "frameworks": ["arduino"],
-  "platforms": ["espressif32"]
+  "homepage": "https://github.com/isantosruiz/iKY040",
+  "license": "MIT",
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "espressif32"
+  ],
+  "headers": "iKY040.h"
 }
