@@ -1,0 +1,12 @@
+{
+  "name": "iKY040",
+  "version": "1.0.0",
+  "description": "Library for KY-040 encoder",
+  "keywords": ["arduino", "sensor", "ESP32", "M5Stack Core2"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuusuario/iKY040.git"
+  },
+  "frameworks": ["arduino"],
+  "platforms": ["espressif32"]
+}
