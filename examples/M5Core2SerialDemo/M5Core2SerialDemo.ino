@@ -1,7 +1,7 @@
 #include <M5Core2.h>
 #include <iKY040.h>
 
-iKY040 encoder;  // CLK=13, DT=14, SW=26, direction inverted by default
+iKY040 encoder(13, 14, 26);  // CLK=13, DT=14, SW=26, direction by default
 
 void drawStatus(const String& eventText) {
   M5.Lcd.fillScreen(BLACK);
