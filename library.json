@@ -1,6 +1,6 @@
 {
   "name": "iKY040",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Arduino library for reading a KY-040 encoder on ESP32 and M5Stack Core2.",
   "keywords": [
     "encoder",
